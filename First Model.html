@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- le titre -->
+    <title>Cours Html</title>
+    <!-- icone de l'onglet -->
+    <link rel="shortcut icon" href="téléchargement.png">
+</head>
+
+<body>
+    <!-- <h1>Hello Internet</h1> -->
+    <!-- <br> I love html -->
+    <!-- <img src="téléchargement.png"> -->
+    <header>
+        <div>
+            <h1><span>&#169;</span> TEXTE - TITRE H1</h1>
+            <p><em><gross>Success</gross></em></p>
+            Believing in yourself is the key.
+            <p><span>everyone will doubt in your options <br>but don't let yourself down for those</span> </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis fuga molestias tempore? Iure facilis rerum consequuntur voluptatibus illum, ratione atque nesciunt architecto, aspernatur fugit explicabo accusantium quo blanditiis eos?</p>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h2>PHOTO - TITRE H2</h2>
+            <img src="nature.jpg" height="200" alt="nature">
+        </div>
+
+        <div>
+            <h3>LISTES - TITRE H3</h3>
+            <ol>
+                <li>
+                    <p>
+                        TITRE= ordered list n=1:
+                    </p>
+                    <ul style="list-style-type: none;">
+                        <li>Feuille 1</li>
+                        <li>Feuille 2</li>
+                        <li>Feuille 3</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        TITRE= ordered list n=2:
+                    </p>
+                    <ul style="list-style-type : none;">
+                        <li>Classe 1</li>
+                        <li>Classe 2</li>
+                        <li>Classe 3</li>
+                    </ul>
+                </li>
+            </ol>
+            <dl>
+                <dt>Idee 1</dt>
+                <dd>Crucial</dd>
+                <dt>Idee 2</dt>
+                <dd>Important</dd>
+            </dl>
+        </div>
+        <div>
+            <h4>TABLEAUX -TITRE H4</h4>
+            <table borderColor="green" border="3" width="50%">
+                <!-- legende -->
+                <caption><em><strong><ins>POPLUTATION D'AFRIQUE</ins></strong></em></caption>
+                <!-- en tete -->
+                <thead>
+                    <tr>
+                        <th>Pays</th>
+                        <th>Population</th>
+                    </tr>
+                </thead>
+                <!-- corps -->
+                <tbody>
+                    <tr>
+                        <td>Tunis</td>
+                        <td>12M</td>
+                    </tr>
+                    <tr>
+                        <td>Algerie</td>
+                        <td>44M</td>
+                    </tr>
+                    <tr>
+                        <td>Egypt</td>
+                        <td>103M</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h5><span>&#9760;</span> LIENS - TITRE H5</h5>
+            <a href="https://htmlcheatsheet.com/" target="_blank"><em><ins>Html Cheat Sheet</ins></em></a>
+            <br>
+            <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blank">Html Icones</a>
+        </div>
+        <div>
+            <h6>VIDEO - TITRE H6</h6>
+            <video src="nature.mp4" height="150" width="40%" autoplay loop muted></video>
+        </div>
+    </section>
+    <section>
+        <h2>Formulaire</h2>
+        <form action="/php.com" method="post">
+            <label for="name ">NOM</label>
+            <input type="text" id="name" placeholder="ENTREZ VOTRE NOM"><br>
+            <label for="Age">AGE</label>
+            <input type="number" id="Age" min="1" max="120" step="1" value="18"><br>
+
+
+            <label for="gender">GENDER</label>
+            <select id="gender">
+                <option value="HOMME">HOMME</option>
+                <option selected value="FEMME">FEMME</option>
+            </select><br>
+            <div>
+                <input type="radio" name="your answer is" checked id="HUMAN" value="humain">
+                <label for="HUMAN">HUMAIN</label>
+                <input type="radio" name="your answer is" id="DOG" value="chien">
+                <label for="DOG">CHIEN</label>
+                <input type="radio" name="your answer is" id="CAT" value="cat">
+                <label for="CAT">CHAT</label>
+            </div>
+            <textarea cols="30" rows="10" placeholder="TAPER VOTRE DEMANDE"></textarea><br>
+            <label><input type="checkbox" >accepter les CGV</label><br>
+            <input type="submit" value="valider">
+        </form>
+        <footer>
+            <a href="https://mail.google.com/">check votre inbox mail</a> <br>
+            <a href="notice.txt" download="nom-du-fichier">telecharger le fichier</a>
+        </footer>
+    </section>
+</body>
+
+</html>
